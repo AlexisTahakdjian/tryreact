@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom'; 
 import './assets/style/index.css';
-import Header from './Header'
-import Footer from './Footer'
+import Layout from "./Layout";
 import * as serviceWorker from './serviceWorker';
 
 
@@ -24,7 +23,7 @@ class Main extends React.Component {
 	render() {
 		return ( 
 			<div>
-				<Header />
+				<Layout>
 				<div className="main" style={{ backgroundColor: this.state.bgColor }}>
 					<button
 						className='button'

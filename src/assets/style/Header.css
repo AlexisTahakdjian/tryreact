@@ -17,6 +17,7 @@
 	justify-content: space-between;
 	flex-wrap: wrap;
 	color: #fff;
+	list-style: none;
 }
 
 a{

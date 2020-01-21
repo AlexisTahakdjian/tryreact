@@ -1,0 +1,24 @@
+.Header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: #032CA6;
+}
+
+.Header-logo {
+	height: 35px;
+	width: auto;
+	pointer-events: none;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	color: #fff;
+}
+
+a{
+	text-decoration: none;
+}
